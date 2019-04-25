@@ -1,0 +1,46 @@
+{
+  "name": "lukaszuznanski/static_info_tables_pl",
+  "type": "typo3-cms-extension",
+  "description": "Polish (pl) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
+  "license": "GPL-2.0+",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org"
+    }
+  ],
+  "keywords": [
+    "TYPO3 CMS",
+    "Static Info Tables"
+  ],
+  "support": {
+    "issues": "https://github.com/lukaszuznanski/static_info_tables_pl/issues"
+  },
+  "homepage": "https://uznanski.pl",
+  "authors": [
+    {
+      "name": "Łukasz Uznański",
+      "role": "Developer",
+      "homepage": "https://uznanski.pl"
+    }
+  ],
+  "replace": {
+    "static_info_tables_pl": "self.version",
+    "typo3-ter/static-info-tables-pl": "self.version"
+  },
+  "require": {
+    "php": ">= 7.0, <7.3",
+    "typo3/cms-core": ">=8.7, <10.0",
+    "sjbr/static-info-tables": "^6.7"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "static_info_tables_pl"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "SJBR\\StaticInfoTables\\": "Classes/"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+2019-04-26  Łukasz Uznański  <lukasz@uznanski.pl>
+    * update old, not maintained extension static_info_tables_pl to support TYPO3 8.7 and 9.5
+    * add new country Kosovo
+    * fix to wrong sql escape in Tonga capital city which lead to empty fields
+    * update code to use new API
