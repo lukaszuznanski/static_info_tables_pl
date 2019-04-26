@@ -1,5 +1,5 @@
 {
-  "name": "lukaszuznanski/static_info_tables_pl",
+  "name": "lukaszuznanski/static-info-tables-pl",
   "type": "typo3-cms-extension",
   "description": "Polish (pl) language pack for the Static Info Tables providing localized names for countries, currencies and so on.",
   "license": "GPL-2.0+",
