@@ -248,7 +248,7 @@ UPDATE static_countries SET cn_short_pl = 'Bonaire, Sint Eustatius i Saba' WHERE
 UPDATE static_countries SET cn_short_pl = 'Curaçao', cn_capital_pl = 'Willemstad' WHERE cn_iso_2 = 'CW';
 UPDATE static_countries SET cn_short_pl = 'Sint Maarten', cn_capital_pl = 'Philipsburg' WHERE cn_iso_2 = 'SX';
 UPDATE static_countries SET cn_short_pl = 'Sudan Południowy' WHERE cn_iso_2 = 'SS';
-UPDATE static_countries SET cn_short_pl = 'Kosowo', cn_official_name_pl = 'Republika Kosowa' WHERE cn_iso_2 ='XK';
+UPDATE static_countries SET cn_short_pl = 'Kosowo', cn_official_name_pl = 'Republika Kosowa', cn_capital_pl = 'Prisztina' WHERE cn_iso_2 ='XK';
 UPDATE static_countries SET cn_official_name_pl = cn_short_pl WHERE cn_official_name_pl='' OR cn_official_name_pl IS NULL;
 
 
