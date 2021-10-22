@@ -36,10 +36,5 @@
     "typo3/cms": {
       "extension-key": "static_info_tables_pl"
     }
-  },
-  "autoload": {
-    "psr-4": {
-      "SJBR\\StaticInfoTables\\": "Classes/"
-    }
   }
 }
